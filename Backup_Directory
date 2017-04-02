@@ -1,0 +1,24 @@
+#!/bin/bash
+cd Compression_Play/
+echo Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+tar -I 'xz -9ve -T8 -k' -cvf /home/apowell/Compression_Play/Test_Backup/Me.$(date +%b-%d-%Y_%H-%M-%S).tar.xz Linux_Programs/
+sleep 3s
+echo Contents_Log$(date +%b-%d-%Y_%H-%M-%S).txt
+cd Test_Backup/
+ls -hld $PWD/* /home/apowell/Compression_Play/Test_Backup/ > Contents_Log_$(date +%b-%d-%Y_%H-%M-%S).txt
+
+
